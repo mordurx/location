@@ -1,0 +1,166 @@
+#canvas {
+    width:2000px;
+    height:2000px;
+    border: 10px solid transparent;
+}
+.rectangle {
+    border: 1px solid #FF0000;
+    position: absolute;
+}
+body {
+	  text-align: center;
+}
+#wrapper {
+	  text-align: left;
+	  width: 720px;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+#options{
+	width: 200px;
+	height:550px;
+	border:1px solid black;
+	float:left;
+}
+
+#frame{
+	width:513px;
+	height:550px;
+	//background-image: url("../images/UK-Map.gif");
+	background-repeat: repeat-y;
+    	background-position: 0 0;
+    	border:1px solid black;
+    	float:right;
+}
+
+#tbldevs{
+	border:1px solid black;
+	width:80%;
+	margin-left:50px;
+	margin-top:10px;
+}
+
+#tbldevs th{
+	text-align:center;
+	height:50px;
+	width:50px;
+}
+
+#tbldevs td{
+	height:50px;
+}
+
+
+#drag1 {
+	margin-left:15px;
+	margin-top:15px;
+	background-image: url("../images/estrella.png");
+	width:75px;
+	height:75px;
+}
+
+#drag2 {
+	margin-left:15px;
+	margin-top:15px;
+	background-image: url("../images/solgrande.png");
+	width:75px;
+	height:65px;
+}
+
+#drag3 {
+	margin-left:15px;
+	margin-top:15px;
+	background-image: url("../images/solpequeño.png");
+    width:42px;
+	height:45px;
+}
+
+#drag4 {
+	margin-left:15px;
+	margin-top:15px;
+	background-image: url("../images/estrellapequeña.png");
+	width:45px;
+	height:45px;
+}
+
+#drag5 {
+	margin-left:15px;
+	margin-top:15px;
+	background-image: url("../images/solsmall.png");
+	width:35px;
+	height:40px;
+}
+
+#drag6 {
+	margin-left:15px;
+	margin-top:15px;
+	background-image: url("../images/estrellasmall.png");
+	width:36px;
+	height:36px;
+}
+
+.ui-draggable-helperMoving {
+	border: 1px dotted #000;
+	padding: 6px;
+	background: #fff;
+	font-size: 1.2em;
+	width:100px;
+	height:100px;
+}
+
+.ui-draggable-helperStoped {
+	border: 1px solid #000;
+	width:5px;
+	height:5px;
+}
+
+
+
+/* classes for dragged stuff */
+.dragged1 {
+	position:absolute; 
+	background-image: url("../images/estrella.png");
+	width:75px;
+	height:75px;
+}
+
+.dragged2 {
+	position:absolute; 
+	background-image: url("../images/solgrande.png");
+	width:75px;
+	height:65px;
+}
+
+.dragged3 {
+	position:absolute; 
+	background-image: url("../images/solpequeño.png");
+	width:42px;
+	height:45px;
+}
+
+.dragged4 {
+	position:absolute; 
+	background-image: url("../images/estrellapequeña.png");
+	width:45px;
+	height:45px;
+}
+
+.dragged5 {
+	position:absolute; 
+	background-image: url("../images/solsmall.png");
+	width:35px;
+	height:40px;
+}
+
+.dragged6 {
+	position:absolute; 
+	background-image: url("../images/estrellasmall.png");
+	width:36px;
+	height:36px;
+}
+
+
+#element{
+	border:1px solid red
+}
